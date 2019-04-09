@@ -2,7 +2,8 @@
 def speak_to_grandma(phrase)
   if phrase === "I LOVE YOU GRANDMA"
     return "I LOVE YOU TOO PUMPKIN!"
-
+  elsif phrase === phrase.downcase
+    return "HUH?! SPEAK UP SONNY!"
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
